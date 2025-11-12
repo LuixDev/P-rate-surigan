@@ -22,7 +22,7 @@ from bs4 import BeautifulSoup
 TIMEOUT = 8
 USER_AGENT = "SafeAuditAIFull/4.0"
 session = requests.Session()
-DEFAULT_DOMAIN = "happystory.xyz"
+DEFAULT_DOMAIN = "Tu Dominio"
 
 session.headers.update({"User-Agent": USER_AGENT})
 session.verify = True
@@ -449,3 +449,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
