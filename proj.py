@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """
-safe_audit_ai_full.py
+proj.py
 
 Auditoría pasiva avanzada (AI-aware) + detección de componentes vulnerables + modo agresivo
 No destructivo: hace GET/HEAD y seguimientos controlados únicamente.
@@ -9,7 +9,7 @@ Instalación:
   pip install requests beautifulsoup4
 
 Ejemplo:
-  python3 safe_audit_ai_full.py ejemplo.com --output report.json --aggressive --test-redirect-host=https://example.com
+  python proj.py ejemplo.com --output report.json --aggressive --test-redirect-host=https://example.com
 """
 from __future__ import annotations
 import argparse, json, re, ssl, socket, time
@@ -449,4 +449,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
