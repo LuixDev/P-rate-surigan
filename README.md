@@ -17,3 +17,7 @@ pip install requests beautifulsoup4
 
 RUN
 python proj.py
+
+LO QUE DEBE CAMBIAR
+poner solo dominio no url completa DEFAULT_DOMAIN = "TU DOMINIO AQUI.com"
+
